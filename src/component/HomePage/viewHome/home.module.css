@@ -1,0 +1,31 @@
+.home {
+  background-color: #dfecf0;
+  width: 60%;
+  /* height: 300px; */
+  border-radius: 10px;
+  padding-bottom: 10px;
+}
+.char {
+  justify-content: center;
+  margin-top: 22px;
+}
+
+.flex {
+  display: flex;
+}
+
+@media only screen and (max-width: 46.1875em) {
+  .home {
+    width: 100%;
+  }
+  .wide {
+    width: 644px;
+  }
+  .flex {
+    flex-direction: column;
+  }
+  .mobile {
+    display: flex;
+    align-items: center;
+  }
+}

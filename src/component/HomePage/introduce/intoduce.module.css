@@ -1,0 +1,126 @@
+.intoduce {
+  display: flex;
+  width: 100%;
+}
+
+.intoducePerson {
+  width: 60%;
+  padding-left: 8px;
+  padding-right: 6px;
+  border-right: 1px solid #ccc;
+}
+
+.perSon {
+  /* line-height: 15px; */
+  margin: 10px 0 0 0;
+  cursor: default;
+}
+
+.description {
+  line-height: 14px;
+  font-size: 14px;
+  margin: 10px 0 0 0;
+  cursor: default;
+  padding-left: 6px;
+}
+
+.description_introduce {
+  line-height: 18px;
+  font-size: 14px;
+  margin: 10px 0 0 0;
+  cursor: default;
+  text-align: justify;
+  padding-left: 6px;
+}
+
+.flex {
+  display: flex;
+}
+
+.controls {
+  margin: 4px 0;
+  font-weight: 500;
+}
+
+.link {
+  text-decoration: none;
+  color: #000;
+  display: block;
+  font-size: 14px;
+  padding-top: 6px 0;
+  padding-left: 6px;
+}
+
+.contact {
+  width: 40%;
+  padding-left: 10px;
+}
+
+.controls_2 {
+  margin-top: 15px;
+}
+
+.icon {
+  width: 37px;
+  height: 37px;
+  border-radius: 50%;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  margin: 15px;
+}
+
+.facebook {
+  color: rgb(67, 70, 245);
+  margin: 0 auto;
+}
+.intagram {
+  color: rgb(143, 149, 64);
+  margin: 0 auto;
+}
+
+.tiktok {
+  margin: 0 auto;
+  color: #000;
+}
+
+.git {
+  color: #000;
+}
+
+.link_icon {
+  display: block;
+  text-decoration: none;
+  margin: 0 auto;
+}
+
+@media only screen and (max-width: 46.1875em) {
+  .intoduce {
+    display: flex;
+    flex-direction: column;
+  }
+  .intoducePerson {
+    width: 100%;
+  }
+  .contact {
+    width: 100%;
+  }
+  .description_introduce {
+    line-height: 20px;
+    font-size: 16px;
+  }
+  .controls {
+    font-size: 18px;
+  }
+  .intoducePerson {
+    font-size: 20px;
+    padding-bottom: 10px;
+  }
+  .link {
+    padding-top: 10px;
+  }
+  .icon {
+    width: 43px;
+    height: 43px;
+  }
+}

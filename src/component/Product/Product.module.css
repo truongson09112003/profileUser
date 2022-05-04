@@ -1,0 +1,36 @@
+.productHome {
+  margin-top: 22px;
+}
+
+.home {
+  background-color: #dfecf0;
+  width: 60%;
+  /* height: 300px; */
+  border-radius: 10px;
+  padding-bottom: 10px;
+}
+.flex_1 {
+  display: flex;
+  justify-content: center;
+}
+
+.flex {
+  display: flex;
+}
+
+@media only screen and (max-width: 46.1875em) {
+  .home {
+    width: 100%;
+    overflow: hidden;
+  }
+
+  .flex {
+    flex-direction: column;
+  }
+  .flex_1 {
+    flex-direction: column;
+  }
+  .des {
+    padding-left: 6px;
+  }
+}

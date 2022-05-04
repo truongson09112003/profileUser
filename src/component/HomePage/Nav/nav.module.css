@@ -1,0 +1,42 @@
+.iconHome {
+  width: 55px;
+  height: 46px;
+  display: flex;
+  align-items: center;
+  background-color: rgb(229, 223, 223);
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  cursor: pointer;
+}
+
+.iconHome_1 {
+  font-size: 18px;
+}
+
+.HomeLink {
+  text-decoration: none;
+  display: block;
+  margin: 0 auto;
+  color: #000;
+}
+
+.iconHome_2 {
+  width: 55px;
+  margin-top: 24px;
+  height: 46px;
+  display: flex;
+  align-items: center;
+  background-color: rgb(229, 223, 223);
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 46.1875em) {
+  .iconHome_2 {
+    margin: 0;
+    margin-left: 6px;
+    border-radius: 10px;
+  }
+}
