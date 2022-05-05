@@ -29,6 +29,7 @@ function Person() {
             <a className={styles.link} href="https://fullstack.edu.vn/cert/nmmuf">Chứng chỉ HTML & CSS tại F8 ( click me )</a>
             <a className={styles.link} href="https://fullstack.edu.vn/cert/bk597">Chứng chỉ JavaScript cơ bản tại F8 ( click me )</a>
             <a className={styles.link} href="https://fullstack.edu.vn/cert/8ghn4">Chứng chỉ JavaScript nâng cao tại F8 ( click me )</a>
+            <a className={styles.link} href="https://fullstack.edu.vn/cert/jc4ia">Chứng chỉ React JS tại F8 ( click me )</a>
         </div>
     )
 }
